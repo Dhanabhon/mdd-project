@@ -1,0 +1,4 @@
+pandas
+librosa>=0.8.0
+matplotlib>=3.3.3
+tqdm
