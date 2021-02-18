@@ -1,5 +1,7 @@
 # Automated Speech-Based Screening of Depression Using Machine Learning Approaches
 
+![Logo Image](pics/communication.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://tldrlegal.com/license/mit-license)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-385)
 
@@ -45,3 +47,6 @@ Coming Soon...
 Coming Soon...
 
 [Return to top](#automated-speech-based-screening-of-depression-using-machine-learning-approaches)
+
+## Credits
+Icons made by Freepik from www.flaticon.com
