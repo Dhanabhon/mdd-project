@@ -50,3 +50,5 @@ Coming Soon...
 
 ## Credits
 Icons made by Freepik from www.flaticon.com
+
+## This mdd project during development.
