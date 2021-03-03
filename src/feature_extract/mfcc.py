@@ -23,10 +23,10 @@ def main(args: argparse.Namespace):
             print(source_fqn)
             # Waveform
             signal, sr = librosa.load(source_fqn, sr=8000)
-            # librosa.display.waveplot(signal, sr=sr)
-            # plt.xlabel("Time")
-            # plt.ylabel("Amplitude")
-            # plt.show()
+            librosa.display.waveplot(signal, sr=sr)
+            plt.xlabel("Time")
+            plt.ylabel("Amplitude")
+            plt.show()
 
             # FFT -> spectrum
             fft = np.fft.fft(signal)
@@ -36,10 +36,10 @@ def main(args: argparse.Namespace):
             left_frequency = frequency[:int(len(frequency) / 2)]
             left_magnitude = magnitude[:int(len(frequency) / 2)]
 
-            # plt.plot(left_frequency, left_magnitude)
-            # plt.xlabel("Frequency")
-            # plt.ylabel("Magnitude")
-            # plt.show()
+            plt.plot(left_frequency, left_magnitude)
+            plt.xlabel("Frequency")
+            plt.ylabel("Magnitude")
+            plt.show()
 
             # STFT -> Spectrogram
             n_fft = 2048
@@ -49,11 +49,11 @@ def main(args: argparse.Namespace):
 
             log_spectrogram = librosa.amplitude_to_db(spectrogram)
 
-            # librosa.display.specshow(log_spectrogram, sr=sr, hop_length=hop_length)
-            # plt.xlabel("Time")
-            # plt.ylabel("Frequency")
-            # plt.colorbar()
-            # plt.show()
+            librosa.display.specshow(log_spectrogram, sr=sr, hop_length=hop_length)
+            plt.xlabel("Time")
+            plt.ylabel("Frequency")
+            plt.colorbar()
+            plt.show()
 
             # MFCCs
             mfcc = librosa.feature.mfcc(signal, sr=sr, n_mfcc=13)
