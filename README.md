@@ -22,6 +22,9 @@ pip install -r requirements.txt
 
 Your FFmpeg binary can be entirely in user-space (i.e., you do not need sudo).
 
+[SoX](http://sox.sourceforge.net/) is a cross-platform (Windows, Linux, and macOS) command line utility that can convert various formats of computer audio files in to other formats. To install SoX: 
+- [Windows](https://github.com/JoFrhwld/FAVE/wiki/Sox-on-Windows)
+
 ### 1.2. Generating FLAC Files and manipulating audio channels (audio filter to include only the right channel)
 In its raw form, our current audio files are in either WMA (windows media audio) or MP3 format.
 
