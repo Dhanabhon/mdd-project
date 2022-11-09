@@ -52,7 +52,4 @@ Coming Soon...
 [Return to top](#automated-speech-based-screening-of-depression-using-machine-learning-approaches)
 
 ## Credits
-Icons made by Freepik from www.flaticon.com
-
-## Notes
-This mdd project during development.
+Icons made by Freepik from www.flaticon.co
